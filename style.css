@@ -1,0 +1,85 @@
+body{
+    background-image:url("pic/wallpaperflare.com_wallpaper.jpg");
+    background-size: cover;
+}
+.avg{
+    font-family: "viking";
+    font-size: 35px;
+    text-align: center;
+    width: auto;
+    height: auto;
+}
+.container{
+    font-family: "viking";
+    font-size: 10px;
+    text-align: center;
+    color:blanchedalmond;
+    margin: auto;
+}
+.border{
+    border: 5px solid rgb(66, 65, 65);
+    border-radius: 20px;
+    width: 400px;
+    height: 200px;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgba(66, 66, 66, 0.5);
+    float: left;
+    border-style: hidden;
+}
+.border:hover{
+    transform: scale(1.05);
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3),
+                0px 10px 10px rgba(0, 0, 0, 0.2);
+}
+.test{
+    width: 70%;
+    height:50%;
+    margin: 0 auto 0 auto;
+}
+.search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+  
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+input[type="text"] {
+    width: 800px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    float: left;
+    margin: 10px;
+    padding: 10px;
+}
+.transparan {
+    background-color: rgb(168, 168, 168);
+    color: #4b4949;
+    opacity: 0.75;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    float: left;
+    margin: 10px;
+    padding: 10px;
+}
+button:hover{
+    transform: scale(1.05);
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3),
+                0px 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+input:hover{
+    transform: scale(1.05);
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3),
+                0px 10px 10px rgba(0, 0, 0, 0.2);
+}
